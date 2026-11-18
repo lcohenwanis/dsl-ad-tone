@@ -1,0 +1,20 @@
+[project]
+name = "dsl-ad-tone"
+version = "0.1.0"
+description = "Class demo: Design-based Supervised Learning (DSL) on political ad tone"
+requires-python = ">=3.10"
+dependencies = [
+    "jupyterlab",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "statsmodels",
+]
+
+[project.optional-dependencies]
+llm = [
+    "accelerate",
+    "torch",
+    "transformers",
+]
