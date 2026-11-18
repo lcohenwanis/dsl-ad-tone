@@ -16,7 +16,6 @@ Install [uv](https://docs.astral.sh/uv/getting-started/installation/), then:
 git clone <REPO_URL>
 cd dsl-ad-tone
 uv sync
-uv run jupyter lab
 ```
 
 Each notebook runs in under a minute. The LLM labels are already saved in `data/`, so you don't need
